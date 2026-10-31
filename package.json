@@ -1,0 +1,17 @@
+{
+  "name": "emitter-js",
+  "version": "0.1.0",
+  "description": "A tiny typed-friendly event emitter with once, off and unsubscribe functions.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Adrian Delacruz",
+  "license": "MIT"
+}
